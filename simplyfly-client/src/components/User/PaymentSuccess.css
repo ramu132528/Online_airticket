@@ -1,0 +1,15 @@
+.payment-success {
+  text-align: center;
+  padding: 50px;
+  color: #1e1e1e;
+}
+
+.payment-success h2 {
+  color: #ff7200;
+  margin-bottom: 15px;
+}
+
+.payment-success p {
+  font-size: 18px;
+  margin: 5px 0;
+}

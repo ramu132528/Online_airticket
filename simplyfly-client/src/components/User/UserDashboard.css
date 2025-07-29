@@ -1,0 +1,105 @@
+/* Container for the entire user dashboard */
+.user-dashboard-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px 20px;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Central content */
+.user-dashboard-content {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 20px;
+}
+
+/* Centered Search Section with card feel */
+.search-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.search-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-box h3 {
+  margin-bottom: 20px;
+  color: #FFA500;
+  font-size: 24px;
+}
+
+/* Form styles */
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input[type="text"],
+input[type="date"] {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+}
+
+/* Search button */
+.btn-search {
+  background-color: #ff7200;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-search:hover {
+  background-color: #e86100;
+}
+
+/* Booking section */
+.flights-section, .booking-card {
+  margin-top: 30px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+/* Cancel button */
+.btn-cancel {
+  background-color: crimson;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+/* No bookings message */
+.no-bookings {
+  font-style: italic;
+  opacity: 0.7;
+  margin-top: 10px;
+  text-align: center;
+}

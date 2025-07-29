@@ -1,0 +1,78 @@
+.flights-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.flights-container h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #ff7200;
+  font-family: Arial, sans-serif;
+}
+
+.flights-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ff7200;
+  border-radius: 5px;
+  font-size: 16px;
+  background: transparent;
+  color: white;
+}
+
+.flights-container input::placeholder {
+  color: #ccc;
+}
+
+.flights-container button {
+  background-color: #ff7200;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.flights-container button:hover {
+  background-color: #ffa042;
+  color: black;
+}
+
+.results {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.flight-card {
+  background: #1e1e1e;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.flight-card p {
+  margin: 5px 0;
+}
+
+.flight-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.flight-card button:hover {
+  background-color: #0056b3;
+}

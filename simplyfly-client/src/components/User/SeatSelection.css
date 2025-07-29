@@ -1,0 +1,38 @@
+.seat-selection-container {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.95);
+  max-width: 800px;
+  margin: 2rem auto;
+  border-radius: 8px;
+}
+
+.seats-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.seat {
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.seat.selected {
+  background-color: #ff7200;
+  color: white;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 10px 20px;
+  background-color: #ff7200;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

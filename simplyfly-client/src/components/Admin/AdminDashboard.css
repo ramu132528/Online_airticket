@@ -1,0 +1,73 @@
+.admin-container {
+  min-height: 100vh;
+  background-image: url('../../assets/bg.jpg'); 
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.admin-container h2 {
+  text-align: center;
+  color: #ff7200;
+  margin-bottom: 20px;
+}
+
+.section {
+  background: rgba(0, 0, 0, 0.7);
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #ff7200;
+}
+
+.section h3 {
+  color: #ffa042;
+  margin-bottom: 10px;
+}
+
+.section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section li {
+  background: #1c1c1c;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.orange-btn {
+  background-color: #ff7200;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.orange-btn:hover {
+  background-color: #ffa042;
+  color: black;
+}
+
+.logout-btn {
+  background-color: #ff7200;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
+.logout-btn:hover {
+  background-color: #ffa042;
+  color: black;
+}

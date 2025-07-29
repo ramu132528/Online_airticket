@@ -1,0 +1,13 @@
+.success-container {
+  text-align: center;
+  padding: 3rem;
+  background: rgba(255, 255, 255, 0.9);
+  max-width: 600px;
+  margin: 2rem auto;
+  border-radius: 8px;
+}
+
+.success-container h2 {
+  color: #28a745;
+  margin-bottom: 1rem;
+}
